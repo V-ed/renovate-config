@@ -2,8 +2,7 @@
 	"json.schemas": [
 		{
 			"fileMatch": [
-				"/*.json",
-				"!/.vscode/settings.json"
+				"default.json",
 			],
 			"url": "https://docs.renovatebot.com/renovate-schema.json"
 		}
