@@ -11,10 +11,6 @@
 	"automergeType": "branch",
 	"packageRules": [
 		{
-			"matchPackageNames": ["@types/node"],
-			"allowedVersions": "16"
-		},
-		{
 			"updateTypes": [
 				"minor",
 				"patch",
