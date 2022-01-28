@@ -52,6 +52,15 @@
 			],
 			"semanticCommitType": "deps",
 			"semanticCommitScope": null
+		},
+		{
+			"matchPackageNames": [
+				"@v-ed/tsconfig"
+			],
+			"schedule": [
+				"at any time"
+			],
+			"automerge": true
 		}
 	],
 	"schedule": [
