@@ -11,7 +11,8 @@
 		"enabled": true,
 		"schedule": [
 			"at any time"
-		]
+		],
+		"automerge": true
 	},
 	"packageRules": [
 		{
