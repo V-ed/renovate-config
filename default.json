@@ -1,14 +1,18 @@
 {
 	"extends": [
 		"config:base",
-		":semanticCommits",
-		":semanticCommitTypeAll(deps)",
-		":semanticCommitScope(renovate)"
+		":semanticCommits"
 	],
 	"labels": [
 		"dependencies"
 	],
 	"automergeType": "branch",
+	"lockFileMaintenance": {
+		"enabled": true,
+		"schedule": [
+			"at any time"
+		]
+	},
 	"packageRules": [
 		{
 			"updateTypes": [
@@ -24,6 +28,27 @@
 				"devDependencies"
 			],
 			"automerge": true
+		},
+		{
+			"matchDepTypes": [
+				"dependencies",
+				"require"
+			],
+			"semanticCommitType": "deps"
+		},
+		{
+			"matchDatasources": [
+				"maven"
+			],
+			"matchDepTypes": [
+				"compile",
+				"provided",
+				"runtime",
+				"system",
+				"import",
+				"parent"
+			],
+			"semanticCommitType": "deps"
 		}
 	],
 	"schedule": [
