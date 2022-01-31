@@ -7,14 +7,10 @@
 		"dependencies"
 	],
 	"automergeType": "branch",
-	"lockFileMaintenance": {
-		"enabled": true,
-		"schedule": [
-			"at any time"
-		],
-		"automerge": true,
-		"automergeType": "branch"
-	},
+	"schedule": [
+		"after 1am on Monday",
+		"before 7am on Monday"
+	],
 	"packageRules": [
 		{
 			"updateTypes": [
@@ -64,8 +60,12 @@
 			"automerge": true
 		}
 	],
-	"schedule": [
-		"after 1am on Monday",
-		"before 7am on Monday"
-	]
+	"lockFileMaintenance": {
+		"enabled": true,
+		"schedule": [
+			"at any time"
+		],
+		"automerge": true,
+		"automergeType": "branch"
+	}
 }
