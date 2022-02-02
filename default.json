@@ -11,6 +11,7 @@
 		"after 1am on Monday",
 		"before 7am on Monday"
 	],
+	"rangeStrategy": "update-lockfile",
 	"packageRules": [
 		{
 			"updateTypes": [
