@@ -9,7 +9,7 @@
 	],
 	"automergeType": "branch",
 	"schedule": [
-		"after 1am on Monday and before 7am on Monday"
+		"before 7am on Monday"
 	],
 	"rangeStrategy": "update-lockfile",
 	"packageRules": [
