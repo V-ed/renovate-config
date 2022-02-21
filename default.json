@@ -8,6 +8,7 @@
 		"dependencies"
 	],
 	"automergeType": "branch",
+	"timezone": "Canada/Eastern",
 	"schedule": [
 		"before 7am on Monday"
 	],
