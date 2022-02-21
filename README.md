@@ -6,7 +6,7 @@ Shared [Renovate Dependency Management](https://docs.renovatebot.com/config-pres
 
 `.github/renovate.json`
 
-```json
+```jsonc
 {
   "extends": ["github>V-ed/renovate-config"]
   // Optionnal Overrides
@@ -17,7 +17,7 @@ Shared [Renovate Dependency Management](https://docs.renovatebot.com/config-pres
 
 `.github/renovate.json`
 
-```json
+```jsonc
 {
   "extends": ["github>V-ed/renovate-config:lib"]
   // Optionnal Overrides
