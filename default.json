@@ -63,7 +63,6 @@
 	"lockFileMaintenance": {
 		"enabled": true,
 		"automerge": true,
-		"automergeType": "branch",
-		"ignoreTests": true
+		"automergeType": "branch"
 	}
 }
