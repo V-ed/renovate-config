@@ -2,6 +2,6 @@
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
 	"extends": [
 		"config:js-lib",
-		"github>V-ed/renovate-config"
+		"default"
 	]
 }
