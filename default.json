@@ -13,6 +13,9 @@
 		"before 7am on Monday"
 	],
 	"rangeStrategy": "update-lockfile",
+	"constraints": {
+		"pnpm": "7"
+	},
 	"packageRules": [
 		{
 			"updateTypes": [
