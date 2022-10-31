@@ -18,6 +18,10 @@
 	},
 	"packageRules": [
 		{
+			"matchPackagePatterns": ["@types/node"],
+			"enabled": false
+		},
+		{
 			"updateTypes": [
 				"minor",
 				"patch",
